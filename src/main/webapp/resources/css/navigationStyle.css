@@ -1,0 +1,169 @@
+body {font-family: fontawesome, Arial, Helvetica, sans-serif;}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3aafa9;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 50px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #205c5b;
+}
+
+.active {
+    background-color: #2b7a78;
+}
+
+.title{
+	font-family:fontawesome,"Times New Roman", Times, serif;
+	font-size: 29px;
+	float: left;
+	margin-bottom: 1px;
+	margin-top: 15px;
+	padding-left: 10px;
+	color: #2b7a78;
+	display: inline-block;
+}
+
+
+.caption{
+	font-family:fontawesome, "Times New Roman", Times, serif;
+	font-size: 20px;
+	font-style: oblique;
+	color: #172528;
+	display: inline-block;
+	
+}
+
+.floatRight
+{
+   float: right;
+	margin-right: 25px;
+	padding-top: 20px;
+}
+
+.banner
+{
+	    overflow: auto;
+}
+
+img
+{
+	float: left;
+	height: 70px;
+	width: 70px;
+}
+
+div.clearLeft
+{
+	clear: left;
+	display: inline-block;
+}
+
+div.clearRight
+{
+    clear: right;
+}
+
+
+.btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #cf9b34;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #b3822d;
+  text-decoration: none;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 15px;
+}
+
+/* Left and right column */
+.column.side {
+    width: 30%;
+	text-align: center-left;
+}
+
+/* Middle column */
+.column.middle {
+    width: 60%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.register {
+    background-color: #cf9b34;
+    color: white;
+    padding: 10px 60px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.register:hover {
+  background: #b3822d;
+  text-decoration: none;
+}
+
+footer { 
+font-size: 18px;
+ bottom:0;
+ position: fixed;
+  width:100%;
+  display:block;
+  text-align: center;
+  background-color: #3aafa9;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin-bottom: 4px;
+  margin-top: 5px;
+ }
+ 
+  .contact-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.tips
+{
+	font-style: oblique;
+	font-family:fontawesome;
+}
+
+ 
+ /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+    .column {
+        width: 100%;
+    }
+}
